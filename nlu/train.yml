@@ -1,0 +1,29 @@
+commands:
+  #Hora
+  - commmand: Que horas são?
+    input: time
+    action: getTime
+  - commmand: Me diga as horas.
+    input: time
+    action: getTime
+  #Data
+  - commmand: Qual a data de hoje?
+    input: time
+    action: getDate
+  - commmand: Data de hoje.
+    input: time
+    action: getDate
+  #Tempo
+  - commmand: Previsão do tempo
+    input: weather
+    action: getWeather
+  - commmand: Como esta o tempo hoje?
+    input: weather
+    action: getWeather
+  #Abrir
+  - commmand: Abrir google
+    input: open
+    action:
+  - commmand: Abra youtube
+    input: open
+    action:
