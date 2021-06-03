@@ -6,3 +6,7 @@ inputs, outputs = [], []
 
 for command in data['commands']:
     inputs.append(command['input'])
+    outputs.append('{}\{}'.format(command['entity'], command['action']))
+
+print(inputs)
+print(outputs)
